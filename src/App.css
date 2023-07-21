@@ -2,37 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  background-image: url(https://wallpapers.com/images/hd/time-ends-quotes-mjccbqbv96unb35e.webp);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(248, 10, 10);
+  font-family: 'Pangolin', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.Quote {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 20px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 5px rgba(244, 242, 242, 0.2), 0 6px 20px 0 rgba(248, 244, 244, 0.19);
+  background-color: #c7c5c5;
+  color: black;
+  font-family: 'Tektur', cursive;
+  font-family: 'Lugrasimo', cursive;
+  background-color: #b5b6ba;
+  color: rgb(24, 23, 23);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Author {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 60rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px rgba(231, 226, 226, 0.235), 0 6px 20px 0 rgba(247, 244, 244, 0.19);
+  background-color: #c7c5c5;
+  color: black;
+  font-family: 'Lugrasimo', cursive;
+  background-color: #9c9696;
+  color: rgb(18, 17, 17);
+}
+
+.Generator {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem;
+  border: 2px solid rgb(19, 17, 17);
+  border-radius: 10px;
+  box-shadow: 3px 4px rgba(54, 52, 52, 0.911), 0 6px 20px 0 rgba(33, 26, 26, 0.19);
+  background-color: #f43a3a;
+  color: rgb(7, 4, 4);
+  font-family: 'Pangolin', cursive;
+  cursor: pointer;
+}
+
+.Generator:hover {
+  font-size: 27px;
+  background-color: #f60606;
 }
